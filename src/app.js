@@ -14,19 +14,19 @@ const store = configureStore();
 
 
 
-store.dispatch(addExpense({
-    description: "Water Bill ", amount: 50, createdAt: 10000
-}));
-store.dispatch(addExpense({
-    description: "Gas Bill", amount: 600, createdAt: 3432
-}));
- store.dispatch(addExpense({
-    description: "Rent", amount: 10900, createdAt: 500
-}));
+// store.dispatch(addExpense({
+//     description: "Water Bill ", amount: 50, createdAt: 10000
+// }));
+// store.dispatch(addExpense({
+//     description: "Gas Bill", amount: 600, createdAt: 3432
+// }));
+//  store.dispatch(addExpense({
+//     description: "Rent", amount: 10900, createdAt: 500
+// }));
 
-store.dispatch(addExpense({
-    description: "Person", amount: 130, createdAt: 7700
-}));
+// store.dispatch(addExpense({
+//     description: "Person", amount: 130, createdAt: 7700
+// }));
 
 // store.dispatch( setTextFilter('bill'));
 // store.dispatch( setTextFilter('water'));
